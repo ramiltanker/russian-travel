@@ -1,0 +1,18 @@
+.website__url-heading {
+max-width: 456px;
+max-height: 12px;
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 1;
+letter-spacing: 0.2em;
+color: #AAAAAA;
+}
+
+
+@media all and (max-width: 768px) {
+    .website__url-heading {
+        max-width: 100vw;
+    }
+}

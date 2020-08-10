@@ -1,0 +1,32 @@
+.lead {
+max-width: 984px;
+max-height: 1005px;
+margin: auto;
+}
+
+
+
+
+@media all and (max-width:1280px) {
+  .lead {
+    max-width: 984px;
+  }
+}
+
+@media all and (max-width:1024px) {
+    .lead {
+      max-width: 928px;
+    }
+  }
+  
+  @media all and (max-width:768px) {
+    .lead {
+      max-width: 768px;
+    }
+  }
+  
+  @media all and (max-width:425px) {
+    .lead {
+      max-width: 100%;
+    }
+  }

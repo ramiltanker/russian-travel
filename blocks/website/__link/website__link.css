@@ -1,0 +1,23 @@
+.website__link {
+  color: #ffffff;
+  text-decoration: none;
+  max-width: 456px;
+  max-height: 22px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+.website__link:hover {
+  text-decoration: underline;
+  opacity: 0.8;
+}
+
+
+@media all and (max-width: 768px) {
+  .website__link {
+      max-width: 100%;
+  }
+}

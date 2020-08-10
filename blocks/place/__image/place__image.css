@@ -1,0 +1,14 @@
+.place__image {
+max-width: 100%;
+max-height: 100%;
+grid-column: 1/1;
+grid-row: 2/2;
+margin-bottom: 80px;
+}
+
+
+@media all and (max-width: 767px) {
+    .place__image {
+        margin-bottom: 0;
+    }
+}

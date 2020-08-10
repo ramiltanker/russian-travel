@@ -1,0 +1,21 @@
+.place__paragraph {
+  max-width: 484px;
+  max-height: 100%;
+  grid-column: 2/2;
+  grid-row: 2/2;
+}
+
+
+@media all and (max-width:768px) {
+  .place__paragraph {
+    margin-bottom: 72px;
+  }
+}
+
+@media all and (max-width:767px) {
+  .place__paragraph {
+    max-width: 320px;
+    grid-column: 1/1;
+    grid-row: 3/3;
+    margin-bottom: 48px;
+  }

@@ -1,0 +1,43 @@
+.intro__text {
+max-width: 690px;
+max-height: 209px;
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 1.6;
+color: #FFFFFF;
+margin-bottom: 32px;
+}
+
+@media all and (max-width:1280px) {
+  .intro__text {
+  max-width: 690px;
+  max-height: 100%;
+  }
+}
+
+
+@media all and (max-width:1024px) {
+  .intro__text {
+  max-width: 690px;
+  max-height: 100%;
+  }
+}
+
+
+@media all and (max-width:768px) {
+  .intro__text {
+  max-width: 720px;
+  max-height: 100%;
+  }
+}
+
+
+@media all and (max-width:425px) {
+    .intro__text {
+    max-width: 288px;
+    max-height: 100%;
+    }
+  }
+  

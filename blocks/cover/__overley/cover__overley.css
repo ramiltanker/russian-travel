@@ -1,0 +1,13 @@
+.cover__overley {
+  position: absolute;
+  width: 100%;
+  text-decoration: none;
+  margin: auto;
+  z-index: 100;
+}
+
+.cover__overley:hover {
+  background-color: #2A2C2F;
+  opacity: 0.8;
+}
+
