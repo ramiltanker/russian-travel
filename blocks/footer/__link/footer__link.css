@@ -3,7 +3,7 @@ text-decoration: none;
 font-family: Inter;
 font-style: normal;
 font-weight: normal;
-font-size: 16px;
+font-size: calc(24px - 8 * (100vw / 1280));
 line-height: 1.1;
 color: #FFFFFF;
 margin-right: 18px;
@@ -21,7 +21,7 @@ margin-right: 0;
 
 @media all and (max-width:767px) {
     .footer__link {
-        max-width: 100%;
+        font-size: calc(24px - (8 + 8 * 0.7) * ((100vw - 320px) / 1280));
         margin-bottom: 32px;
     }
     .footer__link:last-of-type{

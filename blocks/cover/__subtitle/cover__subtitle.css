@@ -1,9 +1,8 @@
 .cover__subtitle {
-  max-width: 360px;
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  font-size: calc(14px + 4 * (100vw / 1280));
   line-height: 1.2;
   text-align: center;
   color: #ffffff;
@@ -14,10 +13,6 @@
 
 @media all and (max-width: 767px) {
     .cover__subtitle {
-      max-width: 360px;
-      max-height: 66px;
-      font-size: 18px;
-      line-height: 1.2;
       margin-bottom: 195px;
     }
   }
@@ -25,19 +20,13 @@
 
 @media all and (max-width: 767px) {
   .cover__subtitle {
-    max-width: 360px;
-    max-height: 66px;
-    font-size: 18px;
-    line-height: 1.2;
     margin-bottom: 115px;
   }
 }
 
 @media all and (max-width: 767px) {
   .cover__subtitle {
-    max-width: 288px;
-    font-size: 14px;
-    line-height: 1.1;
+    font-size: calc(14px + (4 + 4 * 0.7) * ((100vw - 320px) / 1280));
     margin-bottom: 33px;
   }
 }

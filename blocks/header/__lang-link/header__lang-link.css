@@ -1,11 +1,9 @@
 .header__lang-link {
 color: #ffffff;
 text-decoration: none;
-max-width: 30px;
-max-height: 28px;
-margin-right: 47px;
+  margin-right: 18px;
 text-align: right;
-font-size: 24px;
+font-size: calc(18px + 6 * (100vw / 1280));
 line-height: 1.2;
 }
 
@@ -20,9 +18,6 @@ line-height: 1.2;
 
 @media screen and (max-width:768px) {
   .header__lang-link {
-width: 22px;
-height: 24px;
-font-size: 18px;
-line-height: 1.3;
+    font-size: calc(18px + (6 + 6 * 0.7) * ((100vw - 320px) / 1280));
   }
 }
