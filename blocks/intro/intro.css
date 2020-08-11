@@ -28,13 +28,16 @@ margin-bottom: 92px;
         max-width: 720px;
         margin-left:  24px;
         margin-right: 24px;
+        margin-bottom: 88px;
     }
   }
   
-  @media all and (max-width:767px) {
+  @media all and (max-width:425px) {
     .intro {
     max-width: 100%;
     margin-left:  16px;
     margin-right: 16px;
+    margin-bottom: 64px;
+    margin-top: 64px;
     }
   }
