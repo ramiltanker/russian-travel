@@ -4,24 +4,31 @@ max-width: 100%;
 
 @media screen and (max-width:1440px) {
     .photo-grid {
-        width: 100%;
+        max-width: 100%;
     }
   }
 
 @media screen and (max-width:1200px) {
     .photo-grid {
-        width: 100%;
+        max-width: 1184px;
     }
   }
   
-  @media screen and (max-width:1024px) {
-    .photo-grid {
-        width: 100%;
-    }
-  }
-  
+
   @media screen and (max-width:768px) {
     .photo-grid {
-      width: 100%;
+        max-width: 720px;
+    }
+  }
+
+  @media screen and (max-width:1024px) {
+    .photo-grid {
+        max-width: 928px;
+    }
+  }
+  
+  @media screen and (max-width:425px) {
+    .photo-grid {
+      max-width: 228px;
     }
   }

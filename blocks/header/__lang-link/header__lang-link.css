@@ -1,14 +1,14 @@
 .header__lang-link {
 color: #ffffff;
-text-decoration: none;
-  margin-right: 18px;
+text-decoration: underline;
+font-family: Inter;
+margin-right: 18px;
 text-align: right;
 font-size: calc(18px + 6 * (100vw / 1280));
 line-height: 1.2;
 }
 
 .header__lang-link:hover {
-  text-decoration: underline;
   opacity: 0.8;
 }
 
