@@ -1,7 +1,7 @@
 .website__link {
   color: #ffffff;
   text-decoration: none;
-  font-family: Inter;
+  font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: calc(18px + 0 * (100vw / 1280));
@@ -12,6 +12,12 @@
   opacity: 0.8;
 }
 
+
+@media all and (min-width: 1280px) {
+  .website__link {
+    font-size: 18px;
+  }
+}
 
 @media all and (max-width: 768px) {
   .website__link {

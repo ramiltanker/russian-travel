@@ -1,5 +1,5 @@
 .website__url-heading {
-font-family: Inter;
+    font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: calc(12px + 0 * (100vw / 1280));
@@ -8,6 +8,12 @@ letter-spacing: 0.2em;
 color: #AAAAAA;
 }
 
+
+@media all and (min-width: 1280px) {
+    .website__url-heading {
+      font-size: 18px;
+    }
+  }
 
 @media all and (max-width: 768px) {
     .website__url-heading {

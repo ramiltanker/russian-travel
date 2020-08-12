@@ -1,7 +1,7 @@
 .place__paragraph-item {
 margin-top: 0;
 margin-bottom: 24px;
-font-family: Inter;
+font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: calc(16px + 2 * (100vw / 1280));
@@ -9,7 +9,11 @@ line-height: 1.6;
 color: #ffffff;
 }
 
-
+@media all and (min-width: 1280px) {
+    .place__paragraph-item:last-of-type {
+        font-size: 18px;
+    }
+}
 
 @media all and (max-width: 768px) {
     .place__paragraph-item:last-of-type {
