@@ -36,5 +36,6 @@ margin-bottom: 64px;
       font-size: calc(16px + (14 + 14 * 0.7) * ((100vw - 320px) / 1280));
       margin-top: 16px;
       margin-bottom: 40px;
+      line-height: 20px;
     }
   }

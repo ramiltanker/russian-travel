@@ -5,10 +5,10 @@
   text-decoration: none;
   margin: auto;
   z-index: 100;
+  background-color: rgba(42, 44, 47, 0.3);
 }
 
 .cover__overley:hover {
-  background-color: #2A2C2F;
-  opacity: 0.8;
+  background-color: rgba(42, 44, 47, 0.8);
 }
 

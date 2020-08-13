@@ -7,21 +7,9 @@ margin-bottom: 92px;
 
 }
 
-@media all and (min-width:1280px) {
-  .intro {
-      max-width: 690px;
-  }
-}
-
-@media all and (max-width:1280px) {
-    .intro {
-        max-width: 690px;
-    }
-  }
 
 @media all and (max-width:1024px) {
     .intro {
-      max-width: 690px;
       margin-left:  48px;
       margin-right: 280px;
     }

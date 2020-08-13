@@ -11,7 +11,6 @@ margin-right: 18px;
 
 .footer__link:hover {
     opacity: 0.8;
-    text-decoration: underline;
 }
 
 .footer__link:last-of-type{

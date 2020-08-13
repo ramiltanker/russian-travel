@@ -9,13 +9,7 @@ margin-bottom: 92px;
 }
 
 
-@media screen and (max-width:1440px) {
-    .photo-grid {
-      max-width: 1200px;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-      margin-bottom: 92px;
-    }
-  }
+
   
   @media screen and (max-width:1025px) {
     .photo-grid {

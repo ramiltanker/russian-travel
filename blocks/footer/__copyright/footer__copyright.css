@@ -6,12 +6,14 @@ font-size: calc(14px + 0 * (100vw / 1280));
 line-height: 16px;
 text-align: right;
 color: #FFFFFF;
+margin-top: 2px;
+margin-bottom: 0;
 }
 
 
 @media all and (max-width:767px) {
     .footer__copyright {
-        font-size: calc(14px + 0 + 0 * 0.7) * ((100vw - 320px) / 1280);
+        font-size: 14px;
         text-align: left;
     }
 }

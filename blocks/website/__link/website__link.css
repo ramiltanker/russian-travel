@@ -1,6 +1,6 @@
 .website__link {
   color: #ffffff;
-  text-decoration: none;
+  text-decoration: underline;
   font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
   font-style: normal;
   font-weight: normal;
