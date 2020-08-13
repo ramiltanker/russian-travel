@@ -2,7 +2,6 @@
 color: #ffffff;
 text-decoration: none;
 font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
-margin-right: 18px;
 text-align: right;
 font-size: calc(18px + 6 * (100vw / 1280));
 line-height: 1.2;
@@ -12,9 +11,6 @@ line-height: 1.2;
   opacity: 0.8;
 }
 
-.header__lang-link:las {
-
-}
 
 @media screen and (max-width:768px) {
   .header__lang-link {
