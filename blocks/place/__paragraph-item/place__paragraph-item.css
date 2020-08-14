@@ -9,12 +9,6 @@ line-height: 1.6;
 color: #ffffff;
 }
 
-@media all and (min-width: 1280px) {
-    .place__paragraph-item:last-of-type {
-        font-size: 18px;
-    }
-}
-
 @media all and (max-width: 768px) {
     .place__paragraph-item:last-of-type {
         font-size: calc(16px + 2 + 2 * 0.7) * ((100vw - 320px) / 1280));

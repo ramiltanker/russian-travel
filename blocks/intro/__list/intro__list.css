@@ -11,12 +11,6 @@
   padding: 0;
 }
 
-@media all and (min-width: 1280px) {
-  .intro__list {
-    font-size: 12px;
-  }
-}
-
 @media all and (max-width: 767px) {
   .intro__list {
     font-size: calc(12px + (0 + 0 * 0.7) * ((100vw - 320px) / 1280));

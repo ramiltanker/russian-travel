@@ -9,11 +9,6 @@
 }
 
 
-@media all and (min-width: 1280px) {
-  .intro__title {
-    font-size: 54px;
-  }
-}
 
 @media all and (max-width: 425px) {
   .intro__title {

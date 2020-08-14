@@ -9,12 +9,6 @@ color: #AAAAAA;
 }
 
 
-@media all and (min-width: 1280px) {
-    .website__url-heading {
-      font-size: 18px;
-    }
-  }
-
 @media all and (max-width: 768px) {
     .website__url-heading {
         font-size: calc(12px + 0 + 0 * 0.7) * ((100vw - 320px) / 1280);

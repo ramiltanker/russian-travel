@@ -18,6 +18,6 @@ margin: auto;
   
   @media all and (max-width:425px) {
     .lead {
-      max-width: 100%;
+      max-width: 320px;
     }
   }
