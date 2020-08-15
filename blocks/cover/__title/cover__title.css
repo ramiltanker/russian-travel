@@ -26,7 +26,7 @@ margin-top: 115px;
 }
 
 
-@media all and (max-width: 767px) {
+@media all and (max-width: 580px) {
     .cover__title {
 font-size: calc(32px + (40 + 40 * 0.7) * ((100vw - 320px) / 1280));
 margin-top: 33px;

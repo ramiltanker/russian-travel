@@ -7,23 +7,15 @@
 
 }
 
-@media all and (max-width: 1024px) {
-  .cover {
-    max-width: 100%;
-  }
-}
-
 @media all and (max-width: 768px) {
   .cover {
-    max-width: 100%;
     margin-top: 16px;
     margin-bottom: 88px;
   }
 }
 
-@media all and (max-width: 767px) {
+@media all and (max-width: 425px) {
   .cover {
-    max-width: 100%;
     margin-top: 16px;
     margin-bottom: 64px;
   }
