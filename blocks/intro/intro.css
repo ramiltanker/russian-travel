@@ -1,18 +1,9 @@
 .intro {
-  margin-left: 143px;
-  margin-right: 442px;
+  max-width: 690px;
+  margin: auto;
+  margin-left: 0;
   margin-top: 92px;
   margin-bottom: 92px;
-}
-
-
-@media all and (min-width: 1280px) {
-  .intro {
-    margin: auto;
-  max-width: calc(100% - 4 * 148px);
-  margin-top: 92px;
-  margin-bottom: 92px
-  }
 }
 
 @media all and (max-width: 1024px) {
